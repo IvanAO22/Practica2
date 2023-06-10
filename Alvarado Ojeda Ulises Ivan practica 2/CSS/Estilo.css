@@ -1,0 +1,241 @@
+*{ /*Este codigo significa que va afectar a todo*/
+	
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	font-family: "Verdana",Arial,sans-serif;
+	font-size: 16px;
+	/*background: ;*/
+}
+.Contenedor{ 
+	/*background: green;*/
+	width: 90%;
+	max-width:1000px ;
+	margin: auto;
+	overflow: hidden;
+}
+
+/*Header*/
+header{
+	width: 100%;
+	background: url('../img/fondo.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center 0;
+}
+
+header .Contenedor{
+	height: 700px;
+	position: relative;
+}
+header .menu{
+	width: 100%;
+	text-align: right;
+
+}
+header .menu a{
+	color: #fff;
+	font-size:  20px;
+	display: inline-block;
+	margin: 40px 20px ;
+	text-decoration: none;
+	position: relative;
+	font-weight: 300;
+}
+header .menu a:hover{    /*Este codigo sirve para subrayar el texto*/
+	text-decoration: underline;
+
+} 
+header .Textos{
+	width: 100%;
+	color: fff;
+	position: absolute;
+	top: 50%;  /*Significa distancia del borde*/
+	margin-top: -52px; 
+}
+header .Textos .nombre{
+	font-size: 50px;
+	font-weight: 600px;
+}
+header .Textos .nombre .span{
+	font-weight: 150px;
+}
+header .Textos h3{
+	font-size: 25px;
+	font-style: italic;
+	font-weight: 300;
+}
+/*--------MAIN--------*/
+.Principal{
+	background: url('../img/textura3.JFIF');
+
+}
+.Principal .acerca_de .Contenedor{
+	overflow: visible;
+	position: relative;
+}
+.Principal .acerca_de .img img{
+	width: 100%;
+	vertical-align: top;
+}
+.Principal .acerca_de article{
+	background: #ffff;
+	padding: 40px;
+	width: 50%;
+	position: relative;
+	top: 500px;
+	float: right;
+	z-index: 1; /*Sirve para acomodar en orden*/
+	-webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,35);
+	box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35);
+
+}
+.Principal .acerca_de article h3{
+	font-size: 50px;
+	font-weight: 300;
+	margin-bottom: 40px;
+}
+
+.Principal .acerca_de article p{
+	line-height: 28px; /*linea de contorno*/
+	margin-bottom: 15px;
+}
+.Principal .menu{
+	padding-top: 570px;
+	margin-bottom: 50px;
+}
+.Principal .menu .titulo {
+	font-size: 40px;
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.Principal .menu .Contenedor-menu {
+	border: 1px solid #000;
+	background: transparent;
+	padding: 10px;
+	overflow: hidden;
+}
+
+.Principal .menu article {
+	width: 50%;
+	float: left;
+	padding: 20px;
+}
+
+.Principal .menu article .categoria {
+	font-size: 22px;
+	font-weight: 700;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.Principal .menu article .platillo {
+	overflow: hidden;
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+	border-bottom: 4px dotted #000;
+}
+
+.Principal .menu article .nombre {
+	font-size: 20px;
+	margin-bottom: 15px;
+	float: left;
+}
+
+.Principal .menu article .precio {
+	float: right;
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+.Principal .menu article .Descripcion {
+	font-size: 16px;
+	color: #767676;
+	clear: both;
+}
+
+.Principal .menu .Contenedor-menu2 {
+	border: 1px solid #000;
+	background: transparent;
+	padding: 10px;
+	overflow: hidden;
+}
+
+.Principal .Galeria {
+	overflow: hidden;
+	background: #fff;
+}
+
+.Principal .Galeria .foto {
+	width: 25%;
+	float: left;
+}
+
+.Principal .Galeria .foto img:hover {
+	opacity: 1;
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+}
+
+.Principal .Ubicacion {
+	background: #fff;
+	padding: 60px 0;
+}
+
+.Principal .Ubicacion .Direccion {
+	width: 50%;
+	float: right;
+	text-align: left;
+}
+
+.Principal .Ubicacion .horarios {
+	width: 50%;
+	float: right;
+	text-align: right;
+}
+
+.Principal .Ubicacion .Direccion .calle {
+	margin-bottom: 15px;
+}
+
+.Principal.Ubicacion .horarios {
+	overflow: hidden;
+}
+
+.Principal .Ubicacion .horarios h4 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.Principal .Ubicacion .horarios .Entre-semana,
+.Principal .Ubicacion .horarios .Fines-de-semana {
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+
+.Principal .mapa {
+	width: 100%;
+	overflow: hidden;
+	color: #000;
+	background: #000;
+}
+
+.Principal .mapa iframe {
+	width: 100%;
+	max-height: 600px;
+}
+ /*---------Footer------------*/
+footer {
+	background: #000;
+} 
+footer .Copyrigth {
+	text-align: center;
+	padding: 15px;
+	color: #000;
+}
